@@ -12,13 +12,14 @@ h1,
 h4 {
     color: rgb(196, 229, 191);
     text-align: center;
-    font-family: 'VT323', monospace;
+    font-family: 'Acme', sans-serif;
 }
 
 h2,
 h3,
 h5 {
     font-weight: bold;
+    font-family: 'Acme', sans-serif;
 }
 
 i {
@@ -29,6 +30,14 @@ i {
 
 span {
     font-weight: 100;
+}
+
+div {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.hidden {
+    display: none;
 }
 
 .row {
