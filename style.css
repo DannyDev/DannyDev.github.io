@@ -15,10 +15,20 @@ h4 {
     font-family: 'VT323', monospace;
 }
 
+h2,
+h3,
+h5 {
+    font-weight: bold;
+}
+
 i {
     font-size: 2em;
     color: whitesmoke;
     padding-right: 20px;
+}
+
+span {
+    font-weight: 100;
 }
 
 .row {
