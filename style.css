@@ -15,21 +15,30 @@ h4 {
     font-family: 'VT323', monospace;
 }
 
-.btn {
-    text-transform: uppercase;
-    border-radius: 300px;
-    font-family: 'VT323', monospace;
-    font-size: 25px;
+i {
+    font-size: 2em;
+    color: whitesmoke;
+    padding-right: 20px;
 }
 
-.btn-primary {
-    background-color: #F05F44;
-    border-color: #F05F44;
+.row {
+    margin-top: 20px;
 }
 
-.btn-primary:hover {
-    background-color: #ee4b08;
-    border-color: #ee4b08;
-    border-width: 5px;
-    cursor: pointer;
+.social {
+    margin-top: 15px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+.sq {
+    background-color: antiquewhite;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
 }
