@@ -6,8 +6,7 @@
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
-        $subject = strip_tags(trim($_POST["subject"]));
-				$subject = str_replace(array("\r","\n"),array(" "," "),$subject);
+        $subject = trim($_POST["subject"]));
         $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
         $message = trim($_POST["message"]);
 
@@ -31,7 +30,7 @@
         $email_content .= "Message:\n$message\n";
 
         // Build the email headers.
-        $email_headers = "From:  <$email>";
+        $email_headers = "From:  $email";
 
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
